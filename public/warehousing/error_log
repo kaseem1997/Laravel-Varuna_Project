@@ -1,0 +1,9 @@
+[27-May-2020 06:22:50 UTC] PHP Notice:  Undefined index: Space Required  (in sq. ft.) in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 407
+[28-May-2020 14:38:37 UTC] PHP Notice:  Undefined index: space_required in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 27
+[29-May-2020 04:25:53 UTC] PHP Notice:  Undefined index: space_required in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 27
+[15-Jun-2020 10:22:11 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42
+[05-Sep-2020 09:50:56 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42
+[16-Oct-2020 19:35:34 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42
+[19-Oct-2020 07:53:20 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42
+[31-Oct-2020 17:53:26 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42
+[31-Oct-2020 17:53:27 UTC] PHP Warning:  array_key_exists(): The first argument should be either a string or an integer in /home/zl0dc0pbnczc/public_html/varuna.net/warehousing/enquiry.php on line 42

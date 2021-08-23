@@ -1,0 +1,336 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* { margin:0; padding:0; outline:0; box-sizing:border-box;}
+.nobdr { border:none !important; }
+.nobg { background:none !important; }
+.nobdr_top { border-top:none !important; }
+.nomargin { margin:0px !important; }
+.nomargin-top{margin-top:0 !important;}
+.nomargin-left { margin-left:0px !important; }
+.nomargin-right { margin-right:0px !important; }
+.nopadding { padding:0px !important; }
+.alignbottom { vertical-align:text-top;}
+img {height: auto;  border:0;}
+ul { list-style-type:none; padding:0; margin:0;}
+ul li { list-style:none; padding:0; margin:0; }
+a { text-decoration:none; outline:none; }
+a:hover{text-decoration: none !important;}
+aside, details, figcaption, figure, ins, summary, small, mark, title, video, footer, header, hgroup, nav, section, article 
+{ display: block; }
+
+.clear { padding:0; margin:0; clear:both; }
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0;}
+html, body { width: 100%; padding: 0; margin: 0; font-family: 'Muli', sans-serif; height: 100%;}
+.cf:before,.cf:after {content: " "; display: table;}
+.cf:after {clear: both;}
+.cf {zoom: 1;}
+
+
+
+
+.container{width: 90%; margin:0 auto}
+.header{width: 100%; float: left; z-index: 9; padding-right: 0%; height: 90px; display: flex; align-items: center; position: fixed; top: 0px; background: #fff}
+.header .container{display: flex; align-items: center; justify-content: space-between; width: 92.1%}
+.cont-information ul{display: flex;}
+.cont-information ul li{margin-right: 15px; display: flex; align-items: center;}
+.cont-information ul li a{ color:#1a2c5e; font-size: 16px; line-height: 26px; font-weight: 700 }
+.cont-information ul li a img{margin-right: 10px; vertical-align: middle;}
+.cont-information ul li a span{width: 38px; height: 38px; display: flex; text-align: center; align-items: center; justify-content: center; border:1px solid #ffc112; background: #fff; border-radius: 100%}
+.cont-information ul li a span img{margin: 0}
+.cont-information ul li.linkedin{margin-right: 5px; }
+.cont-information ul li.linkedin span{background: #fff; width: 38px; height: 38px; border: 1px solid #ffc112}
+.cont-information ul li.facebook{margin-right: 5px;}
+.main{width: 100%; float: left; padding-right: 25%; margin-top: 90px;}
+
+/***  Banner CSS start    ***/
+.banner .slick-slide img{margin: 0px auto;width: 100%;}
+.banner .slick-slide figure figcaption{position: absolute;top: 0;width: 100%;bottom: 0;display: flex;align-items: center;z-index: 9;}
+.banner .slick-slide figure figcaption .container{width:98%;}
+.banner .slick-slide figure figcaption h1{font-size: 60px;line-height: 70px;font-weight: 300;color: #fff;margin-bottom: 25px;}
+.banner .slick-slide figure figcaption p{font-size: 17px;line-height: 30px;color: #fff;width: 410px;}
+.banner .slick-dots{bottom: 45px;text-align: left; width: 90%; left: 5%}
+.banner .slick-dots li{margin: 0 15px 0 0; width: 10px; height: 10px;}
+.banner .slick-dots li button{background: #fff;width: 10px;height: 10px;border-radius: 50%;}
+.banner .slick-dots li.slick-active button{background: #ffc112}
+.banner .slick-slide figure img.mobile-banner{display: none;}
+/***   Banner CSS end    ***/
+
+/***  Services CSS start    ***/
+.services {float:left;width:100%;padding: 45px 0px 55px;}
+.services ul li{float: left;width:28%;margin-right: 50px;}
+.services ul li:last-child{margin-right: 0px;}
+.services ul li figure{margin-bottom: 30px;height: 52px;}
+.services ul li h2{color:#1a2c5e;font-size: 24px;font-weight: 400;position: relative;padding-bottom: 20px;margin-bottom: 20px;
+min-height: 80px;}
+.services ul li h2:after{position: absolute;content: '';background: #ffc112;width:50px;height:4px;bottom:0px;left: 0px;}
+.services ul li p{color:#454649;font-size: 15px;line-height:26px;font-weight: 400;}
+.services ul li ul{width: 100%; float: left;}
+.services ul li ul li{color: #454649; width: 100%; font-size: 17px; line-height: 25px; padding-bottom: 3px; padding-left: 25px; font-weight: 400; position: relative;}
+.services ul li ul li:before{width: 6px; height: 6px; background: #ffc112; position: absolute; left: 0px; top: 11px; border-radius: 100%; content: ""; display: block;}
+/***  Services CSS end    ***/
+
+.our-footprints{display: flex; width: 100%; padding: 50px 0; background: url(../images/foot-print-bg.jpg) left top no-repeat; background-size: cover;}
+.our-footprints .footprint-left{width: 50%; float: left; padding-right: 50px;}
+.our-footprints .footprint-left h2{ color: #fff; font-size: 46px; line-height: 46px; padding-bottom: 60px; font-weight: 400; position: relative; }
+.our-footprints .footprint-left h2:after{position: absolute;content: '';background: #ffc112;width:50px;height:4px;bottom:30px;left: 0px;}
+.our-footprints .footprint-left p{ color: #fff; font-size: 18px; line-height: 28px; padding-bottom: 30px; font-weight: 400; position: relative;}
+.our-footprints .footprint-left ul li{color: #fff; font-size: 18px; line-height: 28px; padding-bottom: 3px; padding-left: 25px; font-weight: 400; position: relative;}
+.our-footprints .footprint-left ul li:before{width: 6px; height: 6px; background: #ffc112; position: absolute; left: 0px; top: 11px; border-radius: 100%; content: ""; display: block;}
+.our-footprints .footprint-right{width: 50%; float: left;}
+.our-footprints .footprint-right figure{width: 100%}
+.our-footprints .footprint-right figure img{width: 100%}
+
+.area-spectification{display: flex; padding: 46px 0 0 0; width: 100%; background: #fff;}
+.area-spectification .container{display: flex;}
+.area-spectification .area-left{ background: #f8f8f8; padding: 50px 20px 50px 50px; box-shadow: border-box; width: 50%; float: left; }
+.area-spectification .area-left h2{color: #1a2c5e; font-size: 40px; line-height: 50px; font-weight: 400; padding-bottom: 50px; position: relative;}
+.area-spectification .area-left h2:after{position: absolute;content: '';background: #ffc112;width:50px;height:4px;bottom:26px;left: 0px;}
+.area-spectification .area-left h2 span{display: block; color: #454649; font-size: 17px; line-height: 25px; padding-top: 5px;}
+.area-spectification .area-left ul li{color: #454649; font-size: 17px; line-height: 25px; padding-bottom: 3px; padding-left: 25px; font-weight: 400; position: relative;}
+.area-spectification .area-left ul li:before{width: 6px; height: 6px; background: #ffc112; position: absolute; left: 0px; top: 11px; border-radius: 100%; content: ""; display: block;}
+.area-spectification .area-right{ width: 50%; float: left; height: 100%; display: flex; background: #f8f8f8; align-items: center; }
+.area-spectification .area-right figure{width: 100%;  position: relative;}
+.area-spectification .area-right figure img{width: 100%; height: 100%; object-fit: cover;}
+.area-spectification .area-right figure:before{position: absolute; width: 39px; height: 39px; background: url(../images/area-star.png) left center no-repeat; display: block; content: ""; left: -20px; top: 50%; margin-top: -19px;}
+.area-spectification .area-right figure figcaption{position: absolute; left: 0px; bottom: 50px; width: 100%; padding:0 50px;}
+.area-spectification .area-right figure figcaption h3{font-size: 20px; line-height: 30px; color: #fff; font-weight: 600}
+
+.about-varuna{display: flex; width: 100%;}
+.about-varuna .container{ background: #f8f8f8; padding:60px 40px; margin-top: 25px;}
+.about-varuna h2{ color: #1a2c5e; font-size: 46px; line-height: 46px; padding-bottom: 60px; font-weight: 400; position: relative; }
+.about-varuna h2:after{position: absolute;content: '';background: #ffc112;width:50px;height:4px;bottom:30px;left: 0px;}
+.about-varuna p{color: #454649; font-size: 18px; line-height: 25px; font-weight: 400; width: 85%}
+.about-varuna a{ width: 169px; height: 46px; background: #ffc112; text-align: center; position: relative; line-height: 46px; font-size:13px; color: #1a2c5e; font-weight: 800; text-transform: uppercase; margin-top: 25px; border-radius: 3px; display: inline-block; transform: perspective(1px) translateZ(0); -webkit-transform:perspective(1px) translateZ(0); }
+
+.about-varuna a:after {display: block; position: absolute; bottom: 0; right: 0; height: 100%; width: 0;
+    z-index: 1; content: ''; background: #111f43; -webkit-transition: .5s; -o-transition: .5s;
+    transition: .5s;  z-index: -1; border-radius: 3px; }
+ .about-varuna a:hover:after{width: 100%; color: #fff; left: 0px; top: 0px;}    
+.about-varuna a:hover{color: #fff}
+footer{display: flex; background: #000000; width: 100%; height: 137px; margin-top: 150px;}
+footer p{text-align: center; display: block; color: #666666; font-size: 13px; line-height: 25px; font-weight: 400; text-transform: uppercase;}
+.information{width: 100%; background: #111f43 url(../images/information-after.jpg) left bottom no-repeat; margin-bottom: 30px; background-size: 100% 10px; height: 147px; margin-top: -80px; }
+.information ul{display: flex; align-items: center; justify-content: space-between; padding: 0 35px; height: 100%}
+.information ul li{padding-left: 70px; min-height: 79px; position: relative; color: #fff; font-size: 21px; font-weight: 600;  line-height: 26px;}
+.information ul li a{color: #fff}
+.information ul li label{display: block; color: #808492; font-size: 14px; line-height: 24px; margin-top: 3px;}
+.information ul li span{width: 58px; height: 58px; position: absolute; left: 0px; background: #ffc112; border-radius: 100%; display: flex; justify-content: center; align-items: center; float: left;}
+.information ul li small{font-size: 16px;}
+
+
+
+
+.sidenav{width: 25%; position: fixed; z-index: 99; right: 0px; top: 90px; height: 100%; background:#1a2c5e; padding: 35px; box-sizing: border-box;}
+.sidenav h2{font-weight: 800; font-size: 20px; line-height: 30px; color: #fff; margin-bottom: 25px;}
+.sidenav h2 img{display: none;}
+.sidenav form{width: 100%;}
+.sidenav form .form-group{width: 100%; height: 48px;  margin-bottom: 3px; border-radius: 3px; border:none;}
+.sidenav form .form-group input, .sidenav form .form-group select{width: 100%; height: 48px;  background:#fff;border: none; border-radius: 3px; padding: 0 10px 0 25px; color: #454649; font-size: 13px; line-height: 48px; font-weight: 400}
+.sidenav form .form-group select{-webkit-appearance:none; background:#fff url(../images/dropdown-arrow.png) 96% center no-repeat;}
+.sidenav form .form-group select option{padding: 0 10px 0 25px}
+.sidenav form .form-group:last-child{margin-top: 10px;}
+.sidenav form .form-group input[type="submit"]{background: #ffc112; cursor: pointer; transition: all .5s; padding: 0px; text-align: center; font-weight: 800; text-transform: uppercase;}
+.sidenav form .form-group input[type="submit"]:hover{color: #ffc112; background: transparent; border:1px solid #ffc112;}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #454649; opacity: 1
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #454649; opacity: 1
+}
+
+::placeholder {
+  color: #454649; opacity: 1
+}
+
+
+.sidenav form#contact-form .form-group{ height: auto; }
+.sidenav form#contact-form .form-group .parsley-required, .parsley-errors-list {display: none;}
+.error-global{color: red; font-size: 12px; font-weight: 400; padding-bottom: 5px; float: left; width: 100%}
+.sidenav  .success {float: left; width: 100%; color: #1ab024; text-align: center; margin-top: -15px;
+    padding-bottom: 10px;}
+.sidenav form .form-group input.parsley-error, .sidenav form .form-group select.parsley-error{border:1px solid red;}
+
+
+.thank-you-msg{background: rgba(26,44,94,0.6); width: 100%; height: 100%; opacity: 0; visibility: hidden; position: fixed; display: flex; align-items: center; justify-content: center; z-index: 99;}
+.thank-you-msg .container{width: 700px; background: #fff url(../images/thank-you-bg.png) left bottom no-repeat; background-size: 100% auto; padding:95px 100px 95px 100px; border-radius: 3px;}
+.thank-you-msg h1{font-weight: 600; color: #1c2c5f; font-size: 30px; line-height: 46px; padding-bottom: 10px; text-align:center;}
+.thank-you-msg h2{text-align: center; justify-content: center; font-size: 20px; line-height: 30px; color: #1a2c5e; font-weight: 400}
+.thank-you-msg.active{opacity: 1; visibility: visible;}
+
+
+
+
+/*** Warehousing Services Start   ***/
+.warehousing-services {padding-top: 60px;}
+.warehousing-services h3{color: #1a2c5e;font-size: 25px;line-height: 30px;padding-bottom: 25px;font-weight: 400;position: relative;margin-bottom: 20px;}
+.warehousing-services h3::after {position: absolute;content: '';background: #ffc112;width: 50px;height: 4px;bottom: 0px;left: 0px;}
+.warehousing-services p{color: #454649;font-size: 18px;line-height: 28px;font-weight: 400;}
+/*** Warehousing Services End   ***/
+
+@media only screen and (max-width: 1600px){
+.banner{height: auto}
+.banner figure{height: auto;}
+}
+
+@media only screen and (max-width: 1280px){
+
+.container{width: 96%;}
+.cont-information ul li a{font-size: 14px;}
+/*.services ul{display: flex; width: 100%; justify-content: space-between;}*/
+.services ul li{width: 33%; padding-right: 30px; margin-right: 0px;}
+.about-varuna p{width: 90%}
+}
+
+@media only screen and (max-width: 1200px){
+  .header .logo img{width: 180px;}
+  .cont-information ul li a span, .cont-information ul li.linkedin a span{width: 30px; height: 30px;}
+  .cont-information ul li a img{margin-right: 5px;}
+  .cont-information ul li{margin-right: 10px;}
+.banner .slick-slide figure figcaption h1{font-size: 50px; line-height: 60px;}
+.area-spectification .area-left{padding: 25px;}
+.area-spectification .area-left h2{font-size: 30px; line-height: 40px;}
+.about-varuna h2, .our-footprints .footprint-left h2{font-size: 40px; line-height: 50px;}
+.about-varuna p{width: 95%}
+.sidenav{padding: 35px 15px;}
+.banner .slick-slide figure figcaption h1{margin-bottom: 15px;}
+.banner .slick-slide figure figcaption p{line-height: 25px;}
+.information ul{padding: 0 10px;}
+.information ul li{font-size: 18px; padding-left: 60px;}
+.information ul li span{width: 50px; height: 50px;}
+}
+
+@media only screen and (max-width: 1060px){
+.services ul li{font-size: 15px; padding-right: 15px;}
+  .sidenav h2{font-size: 18px;}
+  .banner .slick-dots{bottom: 25px;}
+  .sidenav form .form-group, .styled-select{height: 40px; }
+  .sidenav form .form-group input, .sidenav form .form-group select, .styled-select{line-height: 40px; height: 40px;}
+  .about-varuna h2, .our-footprints .footprint-left h2 {  font-size: 30px; line-height: 40px; }
+  .our-footprints .footprint-left p, .our-footprints .footprint-left ul li{font-size: 16px; line-height: 26px;}
+  .our-footprints .footprint-left{padding-right: 50px;}
+  .our-footprints .footprint-left p{padding-bottom: 15px;}
+  .our-footprints .footprint-left h2{padding-bottom: 40px;}
+  .our-footprints .footprint-left h2::after{bottom: 20px;}
+  .area-spectification .area-right figure figcaption{position: absolute; left: 0px; bottom: 50px; width: 100%; padding:0 25px;}
+}
+
+@media only screen and (max-width: 1023px){
+ .sidenav{width: 30%;} 
+ .header{padding-right: 0%;}
+ .main{padding-right: 30%}
+.services{padding: 30px 0}
+.services ul{flex-wrap: wrap;}
+.services ul li figure{margin-bottom: 0px;}
+.services ul li{width: 100%; padding-right: 0px; margin-bottom: 25px;}
+.services ul li ul li{margin-bottom: 3px;}
+.services ul li h2{min-height: inherit;}
+.services ul li h2 br{display: none;}
+.cont-information ul li a{font-size: 12px;}
+.banner .slick-slide figure figcaption h1{font-size: 35px; line-height: 45px;}
+footer{height: auto; padding-bottom: 25px;}
+.information{width: 70%; margin: -80px auto 25px auto; padding: 25px 0; height: auto;}
+.information ul{flex-wrap: wrap; padding: 0 25px;}
+.information ul li{width: 100%; margin-bottom: 15px; min-height: inherit;}
+}
+
+@media only screen and (max-width: 992px){
+
+.header{padding-right: 0px;}
+.main{padding-right: 0px; margin-bottom: 55px;}
+.sidenav{width: 100%; top: 92%; overflow:hidden; left: 0px; padding: 0px 15px 15px 15px; transition: all .5s;}
+.sidenav.active{top: 0px;}
+.sidenav{padding-top: 0px;}
+.sidenav h2{text-align: left; cursor:  pointer; display: block; padding-top: 15px; position: relative;}
+.sidenav h2 img{display: inline-block; position: absolute; right: 15px; top: 27px;}
+.sidenav h2.highlight img{transform: rotate(180deg);}
+.information{width: 100%; margin: -80px auto 25px auto; padding:0; height: 147px;}
+.information ul{flex-wrap: inherit; padding: 0 25px;}
+.information ul li{width: auto; margin-bottom: 0px; min-height: 79px;}
+}
+
+@media only screen and (max-width:834px){
+
+.information{width: 90%; margin: -80px auto 25px auto; padding: 25px 0; height: auto;}
+.information ul{flex-wrap: wrap; padding: 0 25px;}
+.information ul li{width: 100%; margin-bottom: 15px; min-height: inherit;}
+
+}
+
+@media only screen and (max-width:767px){
+
+.our-footprints .footprint-left{width: 100%; padding-right: 0px; margin-bottom: 25px;}
+.our-footprints .footprint-right{width: 100%}
+.our-footprints .footprint-right figure{text-align: center;}
+.our-footprints .footprint-right figure img{width: auto; margin: 0 auto; display: block;}
+.area-spectification .container{display: block;}
+.area-spectification .area-left{width: 100%; margin-bottom: 25px;}
+.area-spectification .area-right{width: 100%; height: auto;}
+.area-spectification .area-right figure{width: 100%}
+.area-spectification .area-right figure img{width: 100%}
+.header .container{flex-wrap: wrap;}
+.cont-information{width: 100%; text-align: center; display: flex; }
+.cont-information ul{width: 100%; justify-content: center; }
+.cont-information ul li{margin-right: 25px;}
+.cont-information ul li:nth-child(3){margin-right: 0px;}
+.header{padding: 15px 0; height: auto;}
+.header .container .logo{width: 100%; margin-bottom: 5px;}
+.cont-information ul li.linkedin{position: absolute; right: 114px; top: 11px;}
+.cont-information ul li.facebook{position: absolute; right: 52px; top: 11px;}
+.cont-information ul li.wtsapp{position: absolute; right: 21px; top: 11px;}
+.main{margin-top: 101px;}
+.about-varuna{padding-right: 0px;}
+.about-varuna p{width: 100%}
+.banner .slick-slide figure{height: 350px; position: relative; width: 100%}
+.banner .slick-slide figure img{width: 100%; height: 100%; object-fit: cover;}
+.banner .slick-slide figure figcaption p{width: 100%;}
+.banner .slick-slide figure figcaption .container, .container{width: 90%}
+.about-varuna .container{padding: 25px 15px;}
+.area-spectification .area-right figure figcaption{position: absolute; left: 0px; bottom: 50px; width: 100%; padding:0 35px;}
+.thank-you-msg .container{width: 98%; padding: 30px 30px 50px 30px}
+}
+
+@media only screen and (max-width:480px){
+
+.cont-information ul li{margin-right: 10px;}
+
+.cont-information ul li a{font-size: 13px;}
+.our-footprints .footprint-right figure img{width: 100%;}
+.information{width: 100%}
+.about-varuna h2, .our-footprints .footprint-left h2{font-size: 30px; line-height: 40px;}
+.area-spectification .area-right figure figcaption h3{font-size: 18px;}
+.cont-information ul{justify-content: flex-start;}
+.cont-information ul li.wtsapp{right: 10px;}
+.cont-information ul li.facebook{right: 40px;}
+.cont-information ul li.linkedin{right: 89px;}
+.banner .agile.slick-slide figure img.desktop{display: none;}
+.banner .agile.slick-slide figure img.mobile-banner{display: block; }
+.sidenav{padding:0 0 25px 0;}
+.sidenav h2{background:#ffc112; padding:7px 15px 6px 15px; margin-bottom:0px; text-align:center; }
+.sidenav h2 span{width:100%; background:#1a2c5e; text-align:center; width:200px; border-radius:25px; display:inline-block; padding:5px 0; position:relative;}
+.sidenav h2 img{float:none; margin-left:7px; position:relative; top:unset; right:unset;}
+.sidenav form{padding:0 15px; margin-top:15px;}
+.sidenav h2.highlight img{top:-1px;}
+}
+
+@media only screen and (max-width:414px){
+.warehousing-services h3{
+  font-size: 23px;
+}
+/*  .banner .agile.slick-slide figure img.mobile-banner{margin-left: -60px;}
+  .banner .slick-slide:first-child figure img{margin-left: 0px;}*/
+}
+
+@media only screen and (max-width:375px){
+.area-spectification .area-left h2 {
+
+    font-size: 25px;
+    line-height: 25px;
+
+}
+/*  .banner .agile.slick-slide figure img.mobile-banner{margin-left: -105px;}
+  .banner .slick-slide:first-child figure img{margin-left: 0px;}*/
+}

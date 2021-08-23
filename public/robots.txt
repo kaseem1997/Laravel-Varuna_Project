@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin
+Disallow: /career-detail
+Disallow: /privacy-policy
+Disallow: /term-of-use
+
+
+Sitemap: https://varuna.net/sitemap.xml
+
+
+
